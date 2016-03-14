@@ -1,0 +1,288 @@
+body,ul,li{
+	margin:0;
+	padding:0;
+	font-family: "微软雅黑";
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    min-width: 1800px;
+}
+/*顶部开始*/
+header{
+	background: #2B3541;
+	height: 35px;
+	color: white;
+}
+.login{
+	margin-left: 350px;
+	width:450px;
+	float: left;
+}
+#img2{
+	position:absolute;
+	top:35px;
+	left:950px;
+
+}
+.login_ul,.menu_ul1{
+	list-style: none;
+	position: relative;
+	top:9px;   
+}
+.login_ul li,.menu_ul2 li{
+	float: left;
+	width:100px;
+    font-size: 14px;
+}
+#login{
+	width:80px;
+}
+#tel{
+	width:200px;
+}
+#tel,#reg,.menu_ul2 li{
+	border-left: solid 1px #5F6163;
+	padding-left: 22px;
+	height: 18px;
+}
+.menu_list{
+	margin-left: 200px;
+	float: left;
+}
+.menu_ul1,.menu_ul2{
+	list-style: none;
+}
+.menu_ul1 li,.menu_ul2 li{
+	float: left;
+	margin-left: 20px;
+}
+#wx2{
+	margin-left: 50px;
+}
+/*顶部结束*/
+/*主体开始*/
+    /*导航开始*/
+#my_nav{
+	height:80px;
+}
+#logo{
+	margin-left: 350px;
+}
+.about{
+	float: right!important;
+	margin-left: 70px;
+}
+.d1{
+	margin-right: 320px;
+}
+.nav-tabs {
+    border-bottom:none!important;
+}
+.nav-tabs>li>a{
+	line-height: 58px;
+}
+#logo,#save{
+	line-height: 80px;
+}
+#my_nav ul li{
+	font-size: 18px;
+}
+    /*导航结束*/
+    /*巨幕开始*/
+.jumbotron{
+	height:360px;
+	background-image:url(../images/bg1.png);
+	background-size: 100% 100%;
+}
+.jumbotron h1,.jumbotron h2,.jumbotron h3,.jumbotron h4,.jumbotron h5,.jumbotron p{
+	color: white;
+}
+#left_info,#middle_info,#right_info{
+    float: left;
+}
+#left_info{
+	width: 900px;
+	margin-right: 230px;
+}
+#pl{
+	font-size: 16px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 470px;
+}
+#flat{
+	font-size: 72px;
+	font-weight:bold;
+	text-align: right;
+	clear: left;
+}
+#btn1{
+   background-color:#F8E11E;
+   border: 2px solid #F8E11E;
+   border-radius: 20px;
+}
+#middle_info{
+   width:343px;
+   height: 284px;
+   background: rgba(0,0,0,0.4);
+   padding-top: 20px;
+}
+#pm_1{
+	font-size: 16px;
+}
+#pm_2{
+	font-size: 72px;
+}
+#middle_info h5,#pm_1,#pm_2{
+	text-align: center;
+}
+#middle_info button{
+	width:265px;
+	height: 45px;
+    background-color: #F5A11E;
+    border:1px solid #F5A11E;
+    margin:5px 0 10px 40px;
+	border-radius: 4px;
+}
+#pm_2 span{
+	font-size: 30px;
+}
+#middle_info>a{
+    color: #fff;
+	margin-left: 180px;
+}
+.jumbotron p {
+     margin-bottom:0!important; 
+}
+#right_info  button{
+	width:265px;
+	height: 45px;
+	background-color: #F67016;
+	border:1px solid #F67016;
+	border-radius: 4px;
+	position: absolute;
+	top:348px;
+	margin-left: 50px;
+}
+    /*巨幕结束*/
+    /*数字化信息介绍开始*/
+.num_info{
+	height: 100px;
+}
+.num_info,.news{
+	clear: left;
+	border-bottom: 1px solid #E7E7E7;
+}
+.num_ul,.news_ul{
+	list-style: none;
+	width:1200px;
+	margin: 0 auto;
+}
+.num_ul li{
+	float: left;
+	margin-right: 80px;
+}
+.num_ul .li1,.num_ul .li2,.num_ul .li3{
+    border-right:1px solid #ccc;
+    padding-right: 40px;
+}
+.num_ul li img{
+	margin-right: 20px;
+}
+.num_ul li .span1,.num_ul li .span4{
+	font-size: 30px;
+	font-weight: bold;
+}
+ .num_ul li p{
+	position: relative;
+	left: 50px;
+} 
+.span1,.span2,.span3,.span4,.span5{
+	color: #E54141;
+}
+    /*数字化信息介绍结束*/
+    /*新闻通告区开始*/
+.news{
+   height: 40px;
+   line-height: 40px;
+}
+.news_ul{
+   width: 1200px;
+}
+#right_li{
+	float: right;
+}
+.news_ul,.news_ul2{
+    list-style: none;
+}
+.news_ul img{
+	margin-right: 20px;
+}
+.news_ul li,.news_ul2 li{
+	float: left;
+}
+.news_ul li a{
+	color:#E85555;
+}
+.news_ul2 li a{
+	margin-left: 30px;
+	color:#3896E1;
+}
+.news_ul2 li a{
+	font-size: 13px;
+}
+    /*新闻通告区结束*/
+    /*特色介绍开始*/
+.character{
+	height: 260px;
+	clear: left;
+	margin-top: 40px;
+} 
+.character_ul{
+	list-style: none;
+	width:1300px;
+	margin: 0 auto;
+}
+.character ul li{
+	float: left;
+	width: 220px;
+	margin-right: 50px;
+}
+.li_wrap,.li_wrap2{
+	margin-right: 5px!important;
+}
+#ul_wrap {
+	list-style: none;
+	width: 50px;
+	position: relative;
+	top:65px;
+	left: 130px;
+}
+#ul_wrap li{
+	padding:10px;
+	width:50px;
+	border: 1px solid #ccc;
+}
+#a1{
+	position: relative;
+	top:-10px;
+	font-size: 13px;
+}
+#a2{
+	position: relative;
+	top:5px;
+	left:-43px;
+	font-size: 13px;
+}
+#li3{
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	margin-left: 10px;
+
+}
+    /*特色介绍结束*/
+/*主体结束*/
+
+
+
